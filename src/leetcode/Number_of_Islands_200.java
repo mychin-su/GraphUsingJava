@@ -36,7 +36,7 @@ public class Number_of_Islands_200 {
 		for (int i = 0; i < soHang; i++) {
 			for (int j = 0; j < soCot; j++) {
 				if (a[i][j] == '1' && daDuyet[i][j] == false) {
-					DFS(a, j, j);
+					DFS(a, i, j);
 					count++;
 				}
 			}
